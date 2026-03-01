@@ -15,10 +15,5 @@ A fully functional, object-oriented desktop trivia application built with Python
 * **Backend:** MySQL Server
 * **Libraries:** `mysql-connector-python`
 
-## 🚀 How to Run Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone (https://github.com/PabloHackWell/OurFirstPythonProject)
 
 
