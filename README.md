@@ -1,82 +1,25 @@
-# Our First Python Project
+# 🧠 Advanced AI/ML Quiz Game
 
-## Quiz Game – Project Description
+A fully functional, object-oriented desktop trivia application built with Python. This project moves beyond basic console scripts by implementing a live database backend, event-driven graphical UI, and dynamic game states.
 
-**Quiz Game** is a console-based Python application that tests a user’s knowledge through multiple-choice questions. The player answers a series of questions, earns points for correct responses, and receives a final score at the end of the game.
+## ✨ Features
+* **MySQL Database Integration:** Questions are not hardcoded; they are fetched dynamically from a local MySQL server.
+* **Dynamic Difficulty:** Implements SQL queries to pull questions based on Easy, Medium, or Hard classifications.
+* **Interactive GUI:** Built entirely with Tkinter, featuring real-time visual feedback for correct/incorrect answers.
+* **Asynchronous Countdown Timer:** A built-in 15-second active timer that automatically grades unanswered questions and resets upon progression.
+* **Highly Customizable:** The database architecture makes it incredibly easy to swap out the AI/ML questions for any topic you want—whether that is general programming, history, or even PC gaming trivia like Free Fire weapon stats and map locations!
 
----
+## 🛠️ Tech Stack
+* **Language:** Python 3.x
+* **Frontend:** Tkinter (Python's standard GUI library)
+* **Backend:** MySQL Server
+* **Libraries:** `mysql-connector-python`
 
-## Objective
+## 🚀 How to Run Locally
 
-The goal of the game is to:
-
-* Answer questions correctly
-* Score maximum points
-* Improve knowledge in a selected topic
-
----
-
-## How the Game Works
-
-1. The game starts and loads a set of questions.
-2. Questions are displayed one by one.
-3. Each question has multiple options (A, B, C, D).
-4. The user selects an answer.
-5. The program checks whether the answer is correct.
-6. The score is updated.
-7. After all questions are answered, the final score is displayed.
-8. The user can choose to play again.
-
----
-
-## Main Features
-
-* Multiple-choice questions
-* Score tracking system
-* Question shuffling (optional)
-* Timer feature (optional)
-* Difficulty levels (optional)
-* Play again option
-
----
-
-## Technologies Used
-
-* Python programming language
-* Basic Python concepts:
-
-  * Variables
-  * Lists / Dictionaries
-  * Loops
-  * Conditional statements
-  * Input/Output handling
-  * Random module (for shuffle)
-  * Time module (for timer, optional)
-
----
-
-## Purpose of the Project
-
-This project helps to:
-
-* Practice logical thinking
-* Understand program flow
-* Improve Python fundamentals
-* Learn structured coding
-* Build confidence in small application development
-
----
-
-## Example Use Case
-
-The quiz can be customized for:
-
-* General knowledge
-* Cybersecurity awareness
-* Programming questions
-* Educational subjects
-
----
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/PabloHackWell/OurFirstPythonProject](https://github.com/PabloHackWell/OurFirstPythonProject)
 
 
 
